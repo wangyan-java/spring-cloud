@@ -1,0 +1,20 @@
+server:
+  port: 8844
+spring:
+  application:
+    name: config_client
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config_server
+      label: master #远程仓库的分支
+      profile: dev
+      uri: http://localhost:8855/  #配置服务中心的网址。
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+
+#spring.cloud.config.discovery.enabled 是从配置中心读取文件。
+#spring.cloud.config.discovery.serviceId 配置中心的servieId，即服务名
