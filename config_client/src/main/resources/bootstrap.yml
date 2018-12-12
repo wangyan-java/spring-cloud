@@ -9,7 +9,7 @@ spring:
         enabled: true
         service-id: config_server
       label: master #远程仓库的分支
-      profile: dev
+      profile: master
       uri: http://localhost:8855/  #配置服务中心的网址。
 eureka:
   client:

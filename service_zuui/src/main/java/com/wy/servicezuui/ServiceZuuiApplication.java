@@ -17,6 +17,5 @@ public class ServiceZuuiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceZuuiApplication.class, args);
-		log.info("========================启动成功==========================");
 	}
 }
