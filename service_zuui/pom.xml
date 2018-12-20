@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wy</groupId>
-    <artifactId>service-zuui</artifactId>
+    <artifactId>service_zuui</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>service-zuui</name>
+    <name>service_zuui</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>

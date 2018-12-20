@@ -8,10 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.wy</groupId>
-    <artifactId>configserver</artifactId>
+    <artifactId>config_server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>configserver</name>
+    <name>config_server</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
