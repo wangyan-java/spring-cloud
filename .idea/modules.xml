@@ -10,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/service_ribbon/service_ribbon.iml" filepath="$PROJECT_DIR$/service_ribbon/service_ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_zuui/service_zuui.iml" filepath="$PROJECT_DIR$/service_zuui/service_zuui.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud_config/springcloud_config.iml" filepath="$PROJECT_DIR$/springcloud_config/springcloud_config.iml" />
     </modules>
   </component>
 </project>

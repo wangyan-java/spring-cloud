@@ -8,26 +8,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client_01" />
         <module name="config_client" />
-        <module name="config_server" />
         <module name="configserver" />
         <module name="eureka_server" />
         <module name="service-zuui" />
         <module name="service_feign" />
         <module name="service_ribbon" />
-        <module name="service_zuui" />
         <module name="springcloud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client_01" target="1.8" />
       <module name="config_client" target="1.8" />
-      <module name="config_server" target="1.8" />
       <module name="configserver" target="1.8" />
       <module name="eureka_server" target="1.8" />
       <module name="service-zuui" target="1.8" />
       <module name="service_feign" target="1.8" />
       <module name="service_ribbon" target="1.8" />
-      <module name="service_zuui" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
