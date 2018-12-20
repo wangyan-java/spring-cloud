@@ -19,7 +19,7 @@ public class ConfigClientApplication {
 		log.info("=====================启动成功============================");
 	}
 
-	@Value("${foo}")
+	@Value("${name}")
 	String foo;
 	@GetMapping(value = "/hi")
 	public String hi(){
