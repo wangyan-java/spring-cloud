@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/config_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server_zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_zuui" charset="UTF-8" />

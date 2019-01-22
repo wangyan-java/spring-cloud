@@ -2,15 +2,16 @@ server:
   port: 8844
 spring:
   application:
-    name: config_client
+    name: config-dev
   cloud:
     config:
+    #两种方式：1，通过配置中心的url：ip+ort 读取配置文件  2，把配置中心做成一个微服务，通过服务名读取配置文件
       discovery:
         enabled: true
         service-id: config_server
-      label: master #远程仓库的分支
-      profile: master
-      uri: http://localhost:8855/  #配置服务中心的网址。
+      label: master #远程仓库的分支，默认master
+      profile: dev
+#      uri: http://localhost:8855/  #配置服务中心的网址。
 eureka:
   client:
     service-url:

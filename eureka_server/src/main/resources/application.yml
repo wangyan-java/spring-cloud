@@ -4,6 +4,7 @@ eureka:
   instance:
     hostname: 127.0.0.1
   client:
+    #表名自己是一个注册中心
     register-with-eureka: false
     fetch-registry: false
     service-url:
